@@ -27,7 +27,7 @@ import java.util.HashMap;
 public class Bot extends TelegramLongPollingBot {
     private Map<Long, List<Expense>> expenseMap = new HashMap<>();
     private Map<Long, Expense> pendingExpensesMap = new HashMap<>();
-    private String[] categories = { "Food", "Transportation", "Utilities", "Entertainment", "Other" };
+    private String[] categories = { "Food", "Transportation", "Engagement", "Household", "Dating", "Internet", "Health", "Marriage", "Laundry", "Shopping", "Gift", "Other" };
     private String[] importances = { "Essentials", "Have to Have", "Nice to Have", "Shouldn't have" };
 
     static final String PREFIX_CATEGORY = "category:";
